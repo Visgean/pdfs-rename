@@ -1,7 +1,7 @@
 # Bulk rename PDFs
 
 
-Renames all whacky PDF named files to a bit better form. 
+Renames all whacky PDF named files to a bit better form. Extracts new name either from metadata or text on the first slide. 
 
 
 ### Install: 
@@ -14,12 +14,13 @@ $ pip3 install pdfs-rename --user
 ### Usage:
 
 ```
-usage: pdfs-rename [-h] [--rename] [--from_text] pdfs [pdfs ...]
+usage: pdfs-rename [-h] [--rename] [--extract] pdfs [pdfs ...]
 
 positional arguments:
-  pdfs         list of filenames to rename
+  pdfs        list of filenames to rename
 
 optional arguments:
-  --rename     actually rename files
-  --from_text  extract new name from text
+  -h, --help  show this help message and exit
+  --rename    rename the files, on default we only print extracted filenames
+  --extract   extract new name from text
 ```
