@@ -1,6 +1,6 @@
 # Bulk rename PDFs
 
-Bulk renaming of PDF files, extracts new name either from metadata or text on the first slide. 
+Bulk renaming of PDF files, extracts new name either from metadata or from text on the first page. 
 
 
 ### Install: 
