@@ -10,8 +10,8 @@ except ImportError:
 
 setup(
     name='pdfs-rename',
-    version='0.1',
-    description="Makes geojson from EXIF data.",
+    version='1.0',
+    description="Bulk rename PDFs.",
     author="Visgean",
     author_email='visgean@gmail.com',
     url='https://github.com/visgean/pdfs-rename',
@@ -20,7 +20,7 @@ setup(
     ],
     package_dir={'pdfs-rename': 'pdfs-rename'},
     license="MIT",
-    keywords='photos geojson exif',
+    keywords='pdfs',
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
